@@ -20,7 +20,7 @@ int main(void)
 	if ( n == 0)
 	printf ("%d and si 0\n", n);
 
-	else ( n < 6 > 0 )
+	else ( n < 6 )
 	printf ("%d and is less than 6 and not 0\n", n);
 
 	return (0);
