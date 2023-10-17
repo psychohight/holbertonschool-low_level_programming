@@ -10,21 +10,21 @@
 int main(void)
 {
 	int n;
-	int decimal;
+	int dernier;
 	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	
-	int decimal = n % 10;
+	int dernier = n % 10;
 
-	if ( decimal > 5 )
-	printf ("%d and is greater than 5\n", decimal);
+	if ( dernier > 5 )
+	printf ("last digit of %d is %d and is greater than 5\n", n, dernier);
 
-	if ( decimal == 0)
-	printf ("%d and si 0\n", decimal);
+	else if ( dernier == 0)
+	printf ("last digit of %d is %d and si 0\n", n, dernier);
 
-	else if ( decimal < 6 )
-	printf ("%d and is less than 6 and not 0\n", decimal);
+	else ( dernier < 6 )
+	printf ("last digit of %d is %d and is less than 6 and not 0\n", n, dernier);
 
 	return (0);
 }
