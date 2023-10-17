@@ -10,18 +10,20 @@
 int main(void)
 {
 	int n;
-	int decimal = n % 10;
+	int decimal;
 	
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
+	
+	int decimal = n % 10;
 
-	if ( n > 5 )
+	if ( decimal > 5 )
 	printf ("%d and is greater than 5\n", decimal);
 
-	if ( n == 0)
+	if ( decimal == 0)
 	printf ("%d and si 0\n", decimal);
 
-	else if ( n < 6 )
+	else if ( decimal < 6 )
 	printf ("%d and is less than 6 and not 0\n", decimal);
 
 	return (0);
