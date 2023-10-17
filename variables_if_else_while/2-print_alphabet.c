@@ -8,10 +8,10 @@
  */
 int main(void)
 {
-	char low;
+	char alph;
 
-	for (low = 'a'; low <= 'z'; low++)
-	putchar (low);
+	for (alph = 'a'; alph <= 'z'; alph++)
+	putchar (alph);
 
 	return (0);
 }
