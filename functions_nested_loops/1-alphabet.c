@@ -5,38 +5,15 @@
  *
  * Return: Always 0.
  */
-int main(void)
+void print_alphabet(void)
 {
-	print_alphabet();
 
+	char alph;
 
-	_putchar('a');
-	_putchar('b');
-	_putchar('c');
-	_putchar('d');
-	_putchar('e');
-	_putchar('f');
-	_putchar('g');
-	_putchar('h');
-	_putchar('i');
-	_putchar('j');
-	_putchar('k');
-	_putchar('l');
-	_putchar('m');
-	_putchar('n');
-	_putchar('o');
-	_putchar('p');
-	_putchar('q');
-	_putchar('r');
-	_putchar('s');
-	_putchar('t');
-	_putchar('u');
-	_putchar('v');
-	_putchar('w');
-	_putchar('x');
-	_putchar('y');
-	_putchar('z');
+	for (alph = 'a'; alph <= 'z'; alph++)
+
+	_putchar (alph);
+
 	_putchar('\n');
-	
-	return (0);
+
 }
