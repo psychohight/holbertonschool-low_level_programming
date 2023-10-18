@@ -7,6 +7,8 @@
  */
 int main(void)
 {
+	print_alphabet();
+
 
 	_putchar('a');
 	_putchar('b');
