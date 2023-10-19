@@ -2,10 +2,13 @@
 
 /**
  * _islower - 1 si minuscule
+ * #c: char
  *
- * Return= 1 ou 0
+ * Return: 1 ou 0
  */
+
 int _islower(int c)
+
 {
 
 	if (c >= 'a' && c <= 'z')
