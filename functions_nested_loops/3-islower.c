@@ -2,7 +2,7 @@
 
 /**
  * _islower - 1 si minuscule
- * #c: char check
+ * @c: char check
  *
  * Return: 1 ou 0
  */
