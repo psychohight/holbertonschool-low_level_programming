@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * islower - 1 si minuscule
+ * _islower - 1 si minuscule
  *
- * Return 1 ou 0
+ * Return= 1 ou 0
  */
 int _islower(int c)
 {
