@@ -6,7 +6,6 @@
  *
  * @a: nbr
  * @b: nbr
- * @n: nbr
  *
  * Return: Always 0.
  */
@@ -14,7 +13,7 @@ void swap_int(int *a, int *b)
 {
 	int n;
 		
-		n = *b;
-		*b = *a;
-		*a = n;
+	n = *b;
+	*b = *a;
+	*a = n;
 }
