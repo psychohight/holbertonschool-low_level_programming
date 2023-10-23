@@ -3,7 +3,7 @@
 
 /**
 * reset_to_98 - pointeur
-* @*n: ptr
+* @n: ptr
 * Return: Always 0.
 */
 
