@@ -2,7 +2,11 @@
 #include <stdio.h>
 
 /**
- * main - check the code
+ * swap_int - inverser nbr
+ *
+ * @a: nbr
+ * @b: nbr
+ * @n: nbr
  *
  * Return: Always 0.
  */
