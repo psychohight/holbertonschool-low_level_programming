@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-* int *n - pointeur
+* reset_to_98 - pointeur
 * @*n: ptr
 * Return: Always 0.
 */
