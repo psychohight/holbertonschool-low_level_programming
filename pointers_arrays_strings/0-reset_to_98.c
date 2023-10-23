@@ -2,8 +2,8 @@
 #include <stdio.h>
 
 /**
-* *n - pointeur 
-*
+* int *n - pointeur
+* @*n: ptr
 * Return: Always 0.
 */
 
