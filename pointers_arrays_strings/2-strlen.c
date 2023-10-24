@@ -2,7 +2,7 @@
 #include <string.h>
 
 /**
- * strlen - afficher le nbr de charactere
+ * _strlen - afficher le nbr de charactere
  * @s: char
  * Return: Always 0.
  */
@@ -10,7 +10,8 @@ int _strlen(char *s)
 {
 	int len;
 
-	for (len = 0; s[len] != '\0'; len++);
+	for (len = 0; s[len] != '\0');
+	len++;
 
 	return (len);
 
