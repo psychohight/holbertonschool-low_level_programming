@@ -2,10 +2,10 @@
 #include <string.h>
 
 /**
-* print_rev - imprimer a l'envers 
-* 
+* print_rev - imprimer a l'envers
+*
 * @s: mot
-* 
+*
 * Return: Always 0.
 */
 
@@ -20,8 +20,7 @@ void print_rev(char *s)
 	for (len = len - 1; s[len] != '\0'; len--)
 	{
 		_putchar(s[len]);
-
-        }
+	}
 
 	_putchar('\n');
 
