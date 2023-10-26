@@ -3,9 +3,9 @@
 #include <string.h>
 
 /**
-* *_strcpy - copier 
-* @*dest: chaine
-* @*src: chaine 
+* _strcpy - copier
+* @dest: chaine
+* @src: chaine
 * Return: cpy
 */
 char *_strcpy(char *dest, char *src)
