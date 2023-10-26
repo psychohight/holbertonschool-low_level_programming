@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
-* puts2 - 1sur2
+* puts_half - moit
 * @str: char
 * Return: Always 0.
 */
