@@ -4,7 +4,7 @@
 
 /**
 * puts2 - 1sur2
-* @deux: char
+* @str: char
 * Return: Always 0.
 */
 
