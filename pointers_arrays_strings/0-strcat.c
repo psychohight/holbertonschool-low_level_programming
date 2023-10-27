@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * *_strcat - fusion
+ * _strcat - fusion
  *
  * @d: chaine
  * @s: chaine
@@ -23,6 +23,6 @@ char *_strcat(char *dest, char *src)
 		dest[d] = src[s];
 		d++;
 	}
-	
+
 	return (dest);
 }
