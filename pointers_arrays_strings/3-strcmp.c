@@ -3,12 +3,11 @@
 #include <string.h>
 
 /**
- * _strcat - fusion
+ * _strcmp - fusion
  *
- * @d: chaine
- * @s: chaine
- * @dest: pt
- * @src: pt
+ * @i: int
+ * @s1: chaine
+ * @s2: chaine
  *
  * return: 0
  */
