@@ -3,10 +3,10 @@
 #include <string.h>
 
 /**
- * _strcat - fusion
+ * _strncat - fusion
  *
- * @d: chaine
- * @s: chaine
+ * @a: chaine
+ * @b: chaine
  * @dest: pt
  * @src: pt
  * @n: nbr
