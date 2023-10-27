@@ -9,23 +9,23 @@
  * @s: chaine
  * @dest: pt
  * @src: pt
- *
+ * @n: nbr
  * return: 0
  */
 
-char *_strcat(char *dest, char *src)
-
+char *_strncat(char *dest, char *src, int n)
 {
-	int d, s;
+	int a, b;
 
-	for (d = 0; dest[d] != '\0'; d++)
+	for (a = 0; dest[a] != '\0'; a++)
 	{
 	}
-	for (s = 0; src[s] != '\0'; s++)
-	{
-		dest[d] = src[s];
-		d++;
-	}
 
+	for (b = 0; b < n; b++)
+	{
+		dest[a + b] = src[b];
+		if (src[b] == '\0')
+			b = n;
+	}
 	return (dest);
 }
