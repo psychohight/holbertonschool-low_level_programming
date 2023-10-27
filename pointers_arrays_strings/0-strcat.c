@@ -7,6 +7,8 @@
  *
  * @d: chaine
  * @s: chaine
+ * @dest: pt
+ * @src: pt
  *
  * return: 0
  */
