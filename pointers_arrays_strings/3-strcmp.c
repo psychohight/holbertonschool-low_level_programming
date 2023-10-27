@@ -3,7 +3,7 @@
 #include <string.h>
 
 /**
- * _strcmp - fusion
+ * _strcmp - compare
  *
  * @i: int
  * @s1: chaine
