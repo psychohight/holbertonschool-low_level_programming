@@ -2,18 +2,39 @@
 #include <stdio.h>
 
 /**
- * main - check the code
- *
+ * racine - check the code
+ * @n: nbr
+ * @a: nbr
  * Return: Always 0.
  */
-int _sqrt_recursion(int n)
+int racine(int n, int a)
 {
 	if (n < 0)
 		return (-1);
 
-	if (n == 0 || n == 1)
-		return n;
+	if (a * a == n)
+		return (a);
 
-	else
-		return (n || n / 2);
+	if (a * a > n)
+		return (-1);
+
+	return (racine(n, a + 1));
 }
+
+/**
+ * _sqrt_recursion - check the code
+ *
+ * return: n
+*/
+
+int _sqrt_recursion(int n)
+{
+        if (n < 0)
+                return (-1);
+
+        if (n == 0)
+                return (0);
+
+        return (racine(n, 1));
+}
+
