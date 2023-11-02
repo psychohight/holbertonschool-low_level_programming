@@ -23,18 +23,17 @@ int racine(int n, int a)
 
 /**
  * _sqrt_recursion - check the code
- *
+ * @n: nbr
  * return: n
 */
 
 int _sqrt_recursion(int n)
 {
-        if (n < 0)
-                return (-1);
+	if (n < 0)
+		return (-1);
+	
+	if (n == 0)
+		return (0);
 
-        if (n == 0)
-                return (0);
-
-        return (racine(n, 1));
+	return (racine(n, 1));
 }
-
