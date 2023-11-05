@@ -2,7 +2,6 @@
 
 /**
  * main - check the code
- * 
  * @argc: nbr
  * @argv: nbr
  *
