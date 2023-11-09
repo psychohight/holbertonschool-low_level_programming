@@ -3,18 +3,20 @@
 #include <stdlib.h>
 
 /**
- * main - check the code
+ * malloc_checked - check the code
  *
- * Return: Always 0.
+ * @b: nbr
+ *
+ * Return: ptr.
  */
-void *malloc_checked(unsigned int b) 
+void *malloc_checked(unsigned int b)
 {
-    int *ptr;
+	int *ptr;
 
-    ptr = malloc(b);
+	ptr = malloc(b);
 
-    if (ptr == NULL)
-        exit(98);
+	if (ptr == NULL)
+		exit(98);
 
-    return (ptr);
+	return (ptr);
 }
