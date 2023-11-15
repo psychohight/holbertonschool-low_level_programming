@@ -12,7 +12,7 @@ int _strlen(char *s)
 {
 	int len;
 
-	for (len = 0; s[len] != '\0'; len++);
+	for (len = 0; s[len] != '\0'; len++)
 
 	return (len);
 }
@@ -38,7 +38,10 @@ char *_strcpy(char *dest, char *src)
 }
 
 /**
- * main - check the code
+ * new_dog - check the code
+ * @name: ::
+ * @age: ::
+ * @owner: ::
  *
  * Return: Always 0.
  */
@@ -48,9 +51,9 @@ dog_t *new_dog(char *name, float age, char *owner)
 	dog_t *new_dog;
 
 	if (name == NULL || owner == NULL)
-        return (NULL);
+		return (NULL);
 
-    new_dog = (dog_t *)malloc(sizeof(dog_t));
+	new_dog = (dog_t *)malloc(sizeof(dog_t));
 
 	if (new_dog == NULL)
 		return (NULL);
@@ -67,11 +70,11 @@ dog_t *new_dog(char *name, float age, char *owner)
 	new_dog->owner = malloc(sizeof(*owner));
 	if (new_dog->owner == NULL)
 	{
-		free (new_dog);
+		free(new_dog);
 		return (NULL);
 	}
 
 	new_dog->age = age;
 
-	return new_dog;
+	return (new_dog);
 }
