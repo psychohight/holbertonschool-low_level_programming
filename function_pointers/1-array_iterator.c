@@ -2,8 +2,10 @@
 #include "function_pointers.h"
 
 /**
-* main - check the code
-*
+* array_iterator - check the code
+* @array: nbr
+* @size: nbr
+* @action: nbr
 * Return: Always 0.
 */
 
