@@ -2,7 +2,10 @@
 #include <string.h>
 
 /**
- * main - check the code
+ * create_file - check the code
+ *
+ * @filename: nbr
+ * @text_content: nbr
  *
  * Return: Always 0.
  */
