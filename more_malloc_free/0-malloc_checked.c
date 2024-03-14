@@ -10,5 +10,10 @@
  */
 void *malloc_checked(unsigned int b)
 {
-    
+    void *val = malloc(b);
+
+	if (val == NULL)
+		exit(98);
+	
+    return (val);
 }
