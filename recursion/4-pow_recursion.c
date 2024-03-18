@@ -3,20 +3,22 @@
 
 /**
  * main - check the code
- *
+ * @x: number
+ * @y: puissance
+ * 
  * Return: Always 0.
  */
-int factorial(int n)
+int _pow_recursion(int x, int y)
 {
-    int num = n;
+    int num = x;
 
-    if (n < 0)
+    if (y < 0)
         return (-1);
 
-    else if (n >= 0 && n <= 1)
+    else if (y == 0)
         return (1);
 
-    num *= factorial(n - 1);
+    num *= _pow_recursion(x, y - 1);
 
     return (num);
 }
